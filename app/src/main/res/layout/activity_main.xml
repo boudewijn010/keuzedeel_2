@@ -22,11 +22,11 @@
         app:layout_constraintVertical_bias="0.659" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnOpdracht"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="192dp"
-        android:text="Button"
+        android:text="@string/klick_hier"
         app:layout_constraintBottom_toTopOf="@+id/txtBootschap"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
