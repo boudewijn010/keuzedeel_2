@@ -18,4 +18,12 @@ class MainActivity : AppCompatActivity() {
     fun geefBericht(text: String) : String {
         return text
     }
+
+    fun telop(getal1: Int, getal2: Int) : Int{
+        return getal1 + getal2
+    }
+
+    fun telop(getal1: Float, getal2: Float) : Float{
+        return getal1 + getal2
+    }
 }
