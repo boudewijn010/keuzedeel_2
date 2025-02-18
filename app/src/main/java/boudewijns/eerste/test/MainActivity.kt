@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
 
     val mybutton: Unit =
         findViewById<Button>(R.id.btnOpdracht).setOnClickListener {
-        val textView = findViewById<TextView>(R.id.textView)
-        textView.text = "hallo allemaal"
+        val textView = findViewById<TextView>(R.id.btnOpdracht)
+        textView.text = geefBericht("Het werkt...")
     }
 
 
