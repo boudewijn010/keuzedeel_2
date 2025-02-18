@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hallo_allemaal"
+        android:id="@+id/txtBootschap"
         android:textSize="48sp"
         android:textStyle="normal"
         android:textColor="#FF5722"
